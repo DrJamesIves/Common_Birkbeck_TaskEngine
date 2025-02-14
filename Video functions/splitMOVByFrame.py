@@ -1,6 +1,11 @@
 #! python3
 # splitMOVByFrame.py
 
+# Author: James Ives | james.white1@bbk.ac.uk / james.ernest.ives@gmail.com
+# Date: 14th Feb 2025
+# Released under GNU GPL v3.0: https://www.gnu.org/licenses/gpl-3.0.html
+# Open to collaboration—feel free to contact me!
+
 import cv2, os
 
 # The max number of frames we want to select
