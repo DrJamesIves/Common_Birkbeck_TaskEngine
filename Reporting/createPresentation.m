@@ -8,13 +8,18 @@ function [ppt] = createPresentation(savePath, saveName, title)
 % Note, if you don't close the presentation then it won't save you can save
 % it with close(ppt);
 
+% The purpose of this function is to create a presentation object that can
+% then be passed to addImgToPresentation to add images.
+
 % Create a presentation
 import mlreportgen.ppt.*
 
+% If no title specified then use the save name as the title
 if nargin < 3
     title = saveName;
 end
 
+% Create and open the presentation
 ppt = Presentation(strcat(savePath, '/', saveName, ".pptx"));
 open(ppt);
 
