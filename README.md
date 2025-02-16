@@ -7,6 +7,9 @@ These are scripts useful in reporting (usually visual) data
 ### createPresentation.m
 Used to create a presentation object, which can then be passed to addImgToPresentation when adding images to the presentation
 
+### addImgToPresentation.m
+Used to add images to a presentation object created in createPresentation.
+
 ## Video functions
 These are scripts that can be used on video data.
 
